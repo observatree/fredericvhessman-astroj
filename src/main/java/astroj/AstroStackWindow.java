@@ -32,7 +32,8 @@ import java.util.*;
 import java.lang.Math.*;
 import java.text.*;
 
-import bislider.com.visutools.nav.bislider.*;
+import com.visutools.nav.bislider.BiSlider;
+import com.visutools.nav.bislider.*;
 //import astroj.*;
 
 

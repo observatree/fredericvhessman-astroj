@@ -337,7 +337,7 @@ public class AstroCanvas extends OverlayCanvas {
             OverlayCanvas oc = OverlayCanvas.getOverlayCanvas(imp);
             if (oc.numberOfRois() > 0) drawOverlayCanvas(g);
 			if (getOverlay()!=null) ((ImageCanvas)this).drawOverlay(g);
-			if (getShowAllROIs()) drawAllROIs(g);
+			// if (getShowAllROIs()) drawAllROIs(g);
 			if (roi!=null) drawRoi(roi, g);
 
 //			if (srcRect.width<imageWidth || srcRect.height<imageHeight)
@@ -385,7 +385,7 @@ public class AstroCanvas extends OverlayCanvas {
             OverlayCanvas oc = OverlayCanvas.getOverlayCanvas(imp);
             if (oc.numberOfRois() > 0) drawOverlayCanvas(offScreenGraphics);
 			if (getOverlay()!=null) ((ImageCanvas)this).drawOverlay(offScreenGraphics);
-			if (getShowAllROIs()) drawAllROIs(offScreenGraphics);
+			// if (getShowAllROIs()) drawAllROIs(offScreenGraphics);
 			if (roi!=null) drawRoi(roi, offScreenGraphics);
 
 //			if (srcRect.width<imageWidth ||srcRect.height<imageHeight)
